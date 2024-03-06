@@ -1,7 +1,7 @@
 
 # CheckMk API
 
-## get_or_create a new host and (if needed) folder
+get_or_create a new host and (if needed) folder
 
 ### HOST_NAME
 
