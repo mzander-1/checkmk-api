@@ -1,6 +1,8 @@
 
 # CheckMk API
 
+## get_or_create a new host and (if needed) folder
+
 ### HOST_NAME
 
 string^[-0-9a-zA-Z_.]+\Z
