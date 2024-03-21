@@ -1,12 +1,12 @@
-#!/usr/bin/env python3
 import pprint, requests, json, os
 from dotenv import load_dotenv
 
 load_dotenv()
-HOST_NAME = "192.168.0.82"
-SITE_NAME = "hatraco"
+HOST_NAME = "192.168.0.1"
+SITE_NAME = "Site"
 API_URL = f"http://{HOST_NAME}/{SITE_NAME}/check_mk/api/1.0"
 
+#Get USERNAME and PASSWORD from .env file
 USERNAME = os.getenv("USERNAME")
 PASSWORD = os.getenv("PASSWORD")
 
